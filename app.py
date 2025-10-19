@@ -17,7 +17,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image as Re
 # Initialize the Roboflow client
 CLIENT = InferenceHTTPClient(
     api_url="https://serverless.roboflow.com",
-    api_key="wdSr3fN5ZjawNzkIUpXp"
+    api_key="Your_API_Key_Here"
 )
 
 # Streamlit app configuration
@@ -241,3 +241,4 @@ if uploaded_file is not None:
 else:
     st.write("Please upload an image to start detection.")
     st.sidebar.info("Upload an image to generate a report.")
+
