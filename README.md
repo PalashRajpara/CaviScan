@@ -1,4 +1,4 @@
-# CaviScan
+# CaviScan - Dental Cavity Detection Using X-ray Imaging
 
 A Streamlit app for detecting dental cavities from X-ray images using Roboflow Serverless Inference API. Upload an image, view detections with bounding boxes, and generate a shareable PDF report.
 
