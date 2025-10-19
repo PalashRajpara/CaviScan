@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+
+# Streamlit cache & logs
+.streamlit/
+
+# Images & reports generated at runtime
+/temp_image_*.jpg
+temp_image_*.jpg
+temp_image_processed_*.jpg
+*.pdf
+
+# IDE
+.vscode/
+.idea/
